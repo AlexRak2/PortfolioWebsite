@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { PiDownloadFill } from "react-icons/pi";
 import Sensor from "react-visibility-sensor"
 import FadeIn from "react-fade-in";
 import { IoMailSharp } from "react-icons/io5";

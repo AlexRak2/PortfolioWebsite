@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { EmbedPDF } from "@simplepdf/react-embed-pdf";
 import { SiCsharp } from "react-icons/si";
 import { FaDatabase } from "react-icons/fa6";
 import { SiPython } from "react-icons/si";

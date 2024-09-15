@@ -34,7 +34,7 @@ const HeroSection = () => {
           <div className="bg bg3"></div>
 
             <div className="flex flex-col items-center mb-[200px] z-[1] gap-6 ">
-                  <p className="text-2xl md:text-5xl lg:text-7xl text-white font-black ">I'm Alejandro Hernandez.</p>
+                  <p className="text-2xl md:text-5xl lg:text-7xl text-white font-black ">I&apos;m Alejandro Hernandez.</p>
                   <span className="flex flex-row gap-2 items-end text-lg md:text-xl lg:text-3xl text-brand-500 font-black">Software Engineer <p className="h-full  text-sm md:text-xl lg:text-3xl text-custom-gray-400">C# - ASP.NET - Next JS</p></span>
 
                   <hr className="border-custom-gray-500 border-b-1 w-[650px] mt-4"></hr>
