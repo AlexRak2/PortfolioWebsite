@@ -7,7 +7,6 @@ import ResumeSection from "./components/ResumeSection";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
-import { useState } from "react";
 import ContactSection from "./components/ContactSection";
 
 export default function Home() {
