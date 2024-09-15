@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import HeroSection from "./components/HeroSection";
 import AboutSection from "./components/AboutSection";
 import ProjectSection from "./components/ProjectSection";
@@ -12,8 +11,6 @@ import { useState } from "react";
 import ContactSection from "./components/ContactSection";
 
 export default function Home() {
-
-  const [getNavbarVisible, setNavbarVisible] = useState(false)
 
   return (
     <main>

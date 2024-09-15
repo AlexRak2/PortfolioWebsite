@@ -53,7 +53,7 @@ const ContactSection = () => {
           'template_k2j1u3p',
           toSend,
           'Y8tORGKem5fp4plij'
-      ).then((response) => {
+      ).then(() => {
 
         clearForm();
         setEmailSent(true);
