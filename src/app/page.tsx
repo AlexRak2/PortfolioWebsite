@@ -12,10 +12,10 @@ import ContactSection from "./components/ContactSection";
 export default function Home() {
 
   return (
-    <main>
+    <main className="">
           <Navbar />
 
-          <div className="flex flex-col h-full">
+          <div className="flex flex-col h-full ">
             <HeroSection />
           </div>
 

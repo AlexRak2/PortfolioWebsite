@@ -34,7 +34,7 @@ const AboutSection = () => {
 
     <section
     id="resume"
-    className="w-full z-10 h-[100%] pt-[80px] mb-[80px]"
+    className="w-[100vw] z-10 h-[100%] pt-[80px] mb-[80px]"
   >
     <Sensor
       onChange={(visible: boolean) => {
@@ -48,7 +48,7 @@ const AboutSection = () => {
           <div className="flex flex-col-reverse lg:flex-row-reverse w-full h-[100%] justify-center mt-10">
             {/* SKILLSS */}
 
-            <div className="flex flex-col h-[100%] w-[300px] items-start text-wrap bg-custom-gray-950  ml-5 lg:ml-0">
+            <div className="flex flex-col h-[100%] w-[280px] items-start text-wrap bg-custom-gray-950  ml-5 lg:ml-0">
               <p className="text-brand-500 font-bold text-2xl  tracking-wider mb-2">
                 SKILLS
               </p>
@@ -119,7 +119,7 @@ const AboutSection = () => {
             </div>
 
             {/* EXPERIENCE */}
-            <div className="flex flex-col h-[100%] w-[400px] lg:w-[1200px] items-end text-wrap ml-5 lg:ml-0">
+            <div className="flex flex-col h-[100%] w-[280px] lg:w-[1200px] items-end text-wrap ml-5 lg:ml-0">
               <div className="flex flex-col justify-start w-100 h-100 items-start mr-5 rounded-xl">
                 <p className="text-brand-500 font-bold text-2xl tracking-widest">
                   EXPERIENCE

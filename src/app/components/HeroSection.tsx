@@ -27,7 +27,7 @@ const HeroSection = () => {
 
         <FadeIn visible={getVisible}>
 
-          <div className="h-full flex flex-col items-center justify-between pt-[35vh] z-[1]">
+          <div className="h-full flex flex-col items-center justify-between pt-[35vh] z-[1] overflow-hidden">
 
           <div className="bg"></div>
           <div className="bg bg2"></div>

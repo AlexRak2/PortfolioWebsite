@@ -19,7 +19,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <section id="navbar" className={`fixed z-50 h-[80px] py-5 w-full px-5 items-center flex justify-between transition-all duration-200  ${ isVisible ? 'top-0'  : '-top-[80px]'}`}>
+    <section id="navbar" className={`fixed z-50 h-[80px] py-5 w-[100vw] px-5 items-center flex justify-between transition-all duration-200  ${ isVisible ? 'top-0'  : '-top-[80px]'}`}>
         <div className="flex flex-row w-full items-center justify-center">
             <div className="hidden lg:flex">
               <a href="#home" className={`navbar-button ${ isVisible ? 'text-white'  : 'text-transparent'} `} >HOME</a>

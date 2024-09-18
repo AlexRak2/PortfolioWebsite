@@ -35,7 +35,7 @@ const ContactSection = () => {
       if(toSend.from_name.trim() == "") return;
       if(toSend.email.trim() == "") return;
       if(toSend.subject.trim() == "") return;
-      if(toSend.email.trim() == "") return;
+      if(toSend.message.trim() == "") return;
 
 
       if(localStorage.getItem("sentEmail") === "true")
@@ -95,27 +95,27 @@ const ContactSection = () => {
           </div>
           <p className={`text-md font-bold text-green-400 ${getEmailSent ? "" : "hidden"}`}>Email sent, please be patient untill i check it out.</p>
         
-          <div className="flex flex-row justify-between items-center w-[35%]">
+          <div className="flex flex-row justify-end md:justify-center items-center w-full">
             <div className="font-bold flex flex-row gap-2">Name<p className="text-brand-500">*</p></div>
             <input value={toSend.from_name} onChange={handleChange} id="from_name" name="from_name" className="bg-custom-gray-700 w-[500px] p-4"></input>
           </div>
 
-          <div className="flex flex-row justify-between items-center w-[35%]">
-            <div className="font-bold flex flex-row gap-2">Email<p className="text-brand-500">*</p></div>
+          <div className="flex flex-row justify-end md:justify-center items-center w-full">
+            <div className="font-bold flex flex-row gap-2 ">Email<p className="text-brand-500">*</p></div>
             <input value={toSend.email} onChange={handleChange} type="email" id="email" name="email" className="bg-custom-gray-700 w-[500px] p-4"></input>
           </div>
 
-          <div className="flex flex-row justify-between items-center w-[35%]">
+          <div className="flex flex-row justify-end md:justify-center items-center w-full">
             <div className="font-bold flex flex-row gap-2">Subject<p className="text-brand-500">*</p></div>
             <input value={toSend.subject} onChange={handleChange} type="text" id="subject" name="subject" className="bg-custom-gray-700 w-[500px] p-4"></input>
           </div>
 
-          <div className="flex flex-row justify-between items-center w-[35%] mb-10">
+          <div className="flex flex-row justify-end md:justify-center items-center w-full mb-4">
             <div className="font-bold flex flex-row gap-2">Message<p className="text-brand-500">*</p></div>
             <textarea value={toSend.message} onChange={handleChange} id="message" name="message" className="bg-custom-gray-700 w-[500px] p-4"></textarea>
           </div>
 
-          <button type="submit" className="bg-custom-gray-600 flex flex-row items-center gap-5  h-[65px] px-8 rounded hover:bg-brand-500">Submit</button>
+          <button type="submit" className="bg-custom-gray-600 flex flex-row items-center gap-5  h-[65px] px-8 rounded hover:bg-brand-500 ml-[150px] md:ml-0">Submit</button>
 
         </form>
         </FadeIn>
