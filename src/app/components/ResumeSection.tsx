@@ -131,9 +131,9 @@ const AboutSection = () => {
                   title="Development Associate"
                   date="April 2024 - Present"
                   description={[
-                    "Customized ERP solutions using C#, enhancing functionality for hundreds of end users in a live production environment.",
+                    "Designed and maintained ERP customizations using C#, enhancing functionality for hundreds of end users in a live production environment",
                     "Wrote complex SQL scripts for custom database views and mass data imports, improving data accessibility.",
-                    "Managed tasks through a ticket system, boosting team efficiency by 30%.",
+                    "Lead a module during the yearly Acumatica ERP upgrade to remove obsolete generic inquiries and minimize security risk.",
                   ]}
                 />
 
@@ -142,9 +142,9 @@ const AboutSection = () => {
                   title="Software Developer"
                   date="April 2023 - April 2024"
                   description={[
-                    "Developed data analytics dashboards using HTML, CSS, JavaScript, and Python for real-time data visualization",
-                    "Automated monthly reporting for over 100 customers, reducing reporting time by 40%.",
-                    "Created tools for attribute updates and automatic label printing, streamlining operational workflows.",
+                    "Developed analytic dashboards with HTML, CSS, and JavaScript to gather data from live devices with REST API.",
+                    "Developed an application for customers to receive monthly reports utilizing Python to gather data and send through our SMTP server",
+                    "Streamlined company workflow by automating daily tasks with Python such as tools to update telemetry data on live devices, or automating label printing based on devices connected.",
                   ]}
                 />
 

@@ -41,14 +41,8 @@ const AboutSection = () => {
                 About Me
                 </p>
                 <p className="text-md text-custom-gray-400 leading-8">
-                Hi! I&apos;m Alejandro, an innovative Software Engineer with over three
-                years of experience specializing in C# development, fullstack
-                solutions, and production environment optimization. Skilled in
-                building scalable applications, custom ERP systems, and
-                multiplayer games with a strong focus on performance and
-                reliability. Adept at working in live production environments and
-                addressing real-time challenges. Eager to leverage my technical
-                expertise.
+                Hi! I&apos;m Alejandro, a tech lover who constantly strives to do his best. I recently released my first product on steam after 2 years generating over 200k downloads. 
+                I also love to develop applications for fun using C#, Javascript, Html, react and anything I can get my hands on.
                 </p>
 
                 <div className="flex flex-col z-10 gap-5">
