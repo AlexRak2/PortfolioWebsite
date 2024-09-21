@@ -49,7 +49,7 @@ const ProjectSection= () => {
 
             </div>
 
-            <div className="flex flex-row gap-2 h-full items-center justify-center content-center z-10 ">
+            <div className="flex flex-col lg:flex-row gap-2 h-full items-center justify-center content-center z-10 ">
 
             <Project title="Havoc" skills="C# - UNITY - MIRROR" link="https://store.steampowered.com/app/2149290/Havoc/" imgUrl="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2149290/header.jpg?t=1722028886" 
                 description="A Competitive shooter made with unity utilizing C# and Mirror networking. 200,000 Downloads, Over 1,000$ in revenue.">
