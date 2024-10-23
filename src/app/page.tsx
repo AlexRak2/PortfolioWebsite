@@ -1,13 +1,11 @@
 "use client";
 
-import HeroSection from "./components/HeroSection";
-import AboutSection from "./components/AboutSection";
-import ProjectSection from "./components/ProjectSection";
-import ResumeSection from "./components/ResumeSection";
+import HeroSection from "./pages/HeroSection";
+import AboutSection from "./pages/AboutSection";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
-import ContactSection from "./components/ContactSection";
+import ContactSection from "./pages/ContactSection";
 
 export default function Home() {
 
@@ -22,14 +20,6 @@ export default function Home() {
           <div className="flex flex-col h-full">
             <AboutSection />
           </div>   
-            
-          <div className="flex flex-col h-full">
-            <ProjectSection />
-          </div>
-
-          <div className="flex flex-col h-full">
-            <ResumeSection />
-          </div>
 
           <div className="flex flex-col h-full">
             <ContactSection />

@@ -8,3 +8,14 @@
 {
     border-radius: 35%;
 }
+
+.hero{
+    height: 100vh;
+}
+  .hero-image {
+
+    background-image: url("/preview.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  
