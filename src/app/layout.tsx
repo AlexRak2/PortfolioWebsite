@@ -15,7 +15,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "SPI - Secure Process Intelligence",
+  title: "Alejandro Portfolio's",
   description: "Alejandro Portfolio, made with NextJS, React, TailwindCSS.",
 };
 
